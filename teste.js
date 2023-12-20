@@ -1,2 +1,3 @@
-let x = 1
-console.log(x)
+let count = 0
+
+console.log(count)
