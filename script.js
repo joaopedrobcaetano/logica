@@ -1,14 +1,14 @@
-// saída
-console.log("Digite o nome do seu jogador")
+// nome, idade, telefone, endereço, cpf
 
-// declara uma variável
-let nickname = "JP"
+let nome = "Nome sobrenome"
+let idade = 91
+let telefone = "(37) 98888-1111"
+let endereco = "Av. Dr. Fábio, 241"
+let cpf = "123.456.789-11"
 
-// concatenando uma mensagem fixa + uma variável
-console.log("Bem vindo " + nickname)
-console.log(nickname + " entrou no servidor")
-
-// criando constantes
-const notificacao = "Pokemon Go diz: "
-
-console.log(notificacao + "tem um novo Pokemon na região")
+console.log("Dados cadastrais: " +
+    "Nome: " + nome + ", " +
+    "Idade: " + idade + ", " +
+    "Telefone: " + telefone + ", " +
+    "Endereço: " + endereco + ", " +
+    "CPF: " + cpf + ".")
