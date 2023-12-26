@@ -49,7 +49,7 @@ if (nivelDeFome === 1) {
 
 // Aprendendo switch case
 
-let fruta = "uva"
+let fruta = "banana"
 
 switch(fruta){
     case "maca":
@@ -57,7 +57,8 @@ switch(fruta){
     break    
     
     case "banana":
-        console.log("vitamina de banana")
+    case "morango":
+        console.log("vitamina de " + fruta)
     break
 
     case "laranja":
@@ -67,3 +68,49 @@ switch(fruta){
     default:
         console.log("suco genérico")
 }
+
+// for
+
+for (let contadorFor = 0; contadorFor < 4; contadorFor++) {
+    console.log(contadorFor)    
+}
+
+let contadorWhile = 0
+
+while(contadorWhile <= 3){
+    console.log(contadorWhile)
+    contadorWhile++
+}
+
+let contadorDoWhile = 0
+
+do {
+    console.log(contadorDoWhile)
+    contadorDoWhile += 2
+} while (contadorDoWhile <= 10);
+
+const numeros = [11, 12, 13, 14, 15];
+
+for(let i = 0; i < numeros.length; i++) {
+  console.log(numeros[i]);
+}
+
+let jogadas = 0;
+let cara = false;
+
+while(!cara) {
+  jogadas++;
+  cara = Math.random() < 0.5;
+}
+
+console.log(`A moeda caiu cara após ${jogadas} jogadas!`);
+
+let numero;
+
+let dado = 0;
+
+while (dado <= 4) {
+  dado = Math.floor(Math.random() * 6) + 1;
+  console.log("Você tirou um", dado);
+}
+
