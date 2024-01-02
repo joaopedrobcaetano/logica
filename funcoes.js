@@ -31,3 +31,16 @@ function selectSquad() {
 function goToMatch() {
     console.log("O time está indo para o jogo")
 }
+
+// funções com parâmetros
+
+assar ("bolo de chocolate")
+assar ("bolo de baunilha")
+assar ("bolo de cenoura")
+var confeitaria = "Bolos e doces"
+
+function assar(bolo){
+    console.log("levando para o forno um " + bolo)
+    console.log(confeitaria)
+}
+
